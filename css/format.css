@@ -1,0 +1,39 @@
+body{
+    background-color: #111;
+    font-size:24px;
+    color: #fff;
+}
+img{
+    width:  30px;
+    height: 30px;
+    position: fixed;
+    bottom: 40px;
+}
+#i0{
+    margin:20px;
+    left:20px;
+    width:10%;
+    box-sizing: border-box;
+}
+#i1{
+    margin:20px;
+    left:40px;
+    width:10%;
+    box-sizing: border-box;
+}
+#i2{
+    margin:20px;
+    left:60px;
+    width:10%;
+    box-sizing: border-box;
+}
+#mail{
+    position: fixed;
+    bottom: 40px;
+    left:40%;
+    box-sizing: border-box;
+}
+.textu{
+    position: absolute;
+    z-index: 8;
+}
