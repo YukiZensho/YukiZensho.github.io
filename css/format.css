@@ -5,6 +5,8 @@ body{
     color: #fff;
 }
 img{
+    max-width: 5vw;
+    max-height: 5vh;
     position: absolute;
     top:10px;
 }
