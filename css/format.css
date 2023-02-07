@@ -1,35 +1,15 @@
 body{
     background-color: rgb(60, 0, 36);
     font-size:24px;
+    text-align: justify;
     color: #fff;
 }
 img{
-    width:  30px;
-    height: 30px;
-    position: fixed;
-    bottom: 40px;
-}
-#i0{
-    margin:20px;
-    left:20px;
-    box-sizing: border-box;
-}
-#i1{
-    margin:20px;
-    left:40px;
-    box-sizing: border-box;
-}
-#i2{
-    margin:20px;
-    left:60px;
-    box-sizing: border-box;
-}
-#i3{
-    margin:20px;
-    left:100px;
-    box-sizing: border-box;
+    position: absolute;
+    top:10px;
 }
 #mail{
+    text-align: center;
     position: fixed;
     bottom: 40px;
     left:40%;
@@ -40,4 +20,9 @@ img{
     width: 75vw;
     left: 50%;
     transform: translateX(-50%);
+}
+#nusea{
+    max-width: 12vw;
+    max-height: 12vh;
+    top: 5vh;
 }

@@ -48,7 +48,6 @@ function Game(){
         xpos=xfru;
         ypos=yfru;
     }
-    console.log(mood);
     //Get the angle between the head of the snake and the mouse
     if(playing)
         dot[0].alpha=Math.abs(Math.atan((ypos-dot[0].ypos)/(xpos-dot[0].xpos)));
@@ -133,3 +132,12 @@ document.addEventListener('mousemove', (event) => {
 
 document.addEventListener('click', (event) => {playing=!playing;});
 document.addEventListener('keydown', (event) => {playing=!playing;});
+const box = 0.10 * window.innerHeight;
+console.log(window.innerHeight);
+
+for(var i = 0;i < 4; i++){
+    document.getElementById("link" + i).style.maxWidth = "5vw";
+    document.getElementById("link" + i).style.maxHeight = "5vh";
+    document.getElementById("link" + i).style.top = (box/2 + i * box) + "px";
+    document.getElementById("link" + i).style.right = (box / 2) + "px";
+}
